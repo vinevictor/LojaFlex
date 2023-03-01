@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="flexContainer">
+        <section class="titles">
+            <h1>Cadastro Loja</h1>
+        </section>
+        <form action="cadastro">
+            <section class="infoNomeEnd fontPadrao">
+                <div style="order: 1" </style>
+                    <label for="name">Nome: </label>
+                    <input type="text" class="nome" id="name" style="width: 150px;">
+                </div>
+
+                <div style="order: 2">
+                    <label for="endereco">Endereco: </label>
+                    <input type="text" class="nome" id="endereco" style="width: 150px;">
+                </div>
+                <div style="order: 3">
+                    <label for="horaAberto">Horario de Abertura: </label>
+                    <input type="time" class="nome" id="horaAberto" style="width: 70px;">
+                </div>
+                <div style="order: 4">
+                    <label for="horaFechado">Horario de Fechamento: </label>
+                    <input type="time" class="nome" id="horaFechado" style="width: 60px;">
+                </div>
+            </section>
+            <section class="titles">
+                <h1>Dias de Funcionamento</h1>
+            </section>
+            <section class="infoDiasFunc fontPadrao">
+
+                <div>
+                    <input type="checkbox" id="domingo" name="domingo">
+                    <label for="domingo">Domingo</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="segunda" name="segunda">
+                    <label for="segunda">Segunda</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="terca" name="terca">
+                    <label for="terca">Terça</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="quarta" name="quarta">
+                    <label for="quarta">Quarta</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="quinta" name="quinta">
+                    <label for="quinta">Quinta</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="sexta" name="sexta">
+                    <label for="sexta">Sexta</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="sabado" name="sabado">
+                    <label for="sabado">Sábado</label>
+                </div>
+            </section>
+
+        </form>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

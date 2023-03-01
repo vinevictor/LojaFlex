@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  background-color: gray;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.flexContainer {
+  margin-top: 20vh;
+  display: flex;
+  width: 750px;
+  background-color: beige;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: flex-start;
+}
+
+.infoNomeEnd {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 750px;
+  height: 120px;
+}
+
+.titles {
+  width: 750px;
+  height: 50px;
+  background-color: rgb(240, 159, 83);
+  text-align: center;
+  line-height: 50px;
+}
+
+.infoNomeEnd div {
+  text-align: center;
+  background-color: rgb(170, 97, 14);
+  width: 250px;
+  height: 50px;
+  margin: 5px 12.5px;
+  line-height: 50px;
+}
+
+.titles h1 {
+  vertical-align: middle;
+  font-size: x-large;
+  width: 750px;
+  background-color: rgb(240, 159, 83);
+  font-family: cursive;
+}
+
+.infoDiasFunc {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 750px;
+  height: 250px;
+}
+
+.infoDiasFunc div {
+  text-align: center;
+  background-color: rgb(170, 97, 14);
+  width: 250px;
+  height: 50px;
+  margin: 5px 12.5px;
+  line-height: 50px;
+}
+
+.fontPadrao {
+  font-family: cursive;
+}
