@@ -102,3 +102,22 @@ body {
 .fontPadrao {
   font-family: cursive;
 }
+
+.botoes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 750px;
+  height: 60px;
+  background-color: rgb(240, 159, 83);
+  line-height: 60px;
+}
+
+.botoes input {
+  text-align: center;
+  background-color: rgb(170, 97, 14);
+  width: 150px;
+  height: 40px;
+  margin: 5px 12.5px;
+  vertical-align: middle;
+}
